@@ -40,7 +40,11 @@
   
 /* Image for Parallax Section */ 
 .paralsec {
-  background-image: url("https://img.webnots.com/2017/05/parallax.jpg");
+  background-image: url("/img/hallway.jpg");
+  }
+
+  .paral.paralsec h1, p.lead{
+    color:rgba(0,0,0,0.8);
   }
    
   .paralsec1 {
@@ -52,3 +56,20 @@
 
   /* Remove Bottom Margin from Jumbotron */
 .jumbotron{margin-bottom: 0;}
+
+#div-info img{
+  width:400px;
+  height: 500px;
+}
+
+#div-info h1{
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 60px;
+  text-align: center;
+  line-height: 100px;
+}
+
+
+#div-info p{
+  
+}
